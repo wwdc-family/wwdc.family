@@ -56,9 +56,7 @@ a {
 .page-header {
   color: #fff;
   text-align: center;
-  /*background: url("https://static.pexels.com/photos/25554/pexels-photo-25554.jpg") no-repeat;*/
-  /*background: url("https://static.pexels.com/photos/29915/pexels-photo.jpg") no-repeat;*/
-  background: url("/Users/felixkrause/Developer/hacking/wwdc.family/pexels-SF.jpg") no-repeat;
+  background: url("/pexels-SF.jpg") no-repeat;
   background-position: center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
