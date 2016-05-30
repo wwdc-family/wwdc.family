@@ -18,9 +18,9 @@ a {
 .btn {
   display: inline-block;
   margin-bottom: 1rem;
-  color: rgba(255, 255, 255, 0.7);
-  background-color: rgba(255, 255, 255, 0.08);
-  border-color: rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 1.0);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 1.0);
   border-style: solid;
   border-width: 1px;
   border-radius: 0.3rem;
@@ -29,10 +29,10 @@ a {
     margin-left: 1rem; }
 
 .btn:hover {
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(255, 255, 255, 1.0);
   text-decoration: none;
-  background-color: rgba(255, 255, 255, 0.2);
-  border-color: rgba(255, 255, 255, 0.3); }
+  background-color: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 1.0); }
 
 @media screen and (min-width: 64em) {
   .btn {
@@ -56,8 +56,16 @@ a {
 .page-header {
   color: #fff;
   text-align: center;
-  background-color: #159957;
-  background-image: linear-gradient(120deg, #155799, #159957); }
+  /*background: url("https://static.pexels.com/photos/25554/pexels-photo-25554.jpg") no-repeat;*/
+  /*background: url("https://static.pexels.com/photos/29915/pexels-photo.jpg") no-repeat;*/
+  background: url("/Users/felixkrause/Developer/hacking/wwdc.family/pexels-SF.jpg") no-repeat;
+  background-position: center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
 
 @media screen and (min-width: 64em) {
   .page-header {
@@ -89,8 +97,7 @@ a {
 
 .project-tagline {
   margin-bottom: 2rem;
-  font-weight: normal;
-  opacity: 0.7; }
+  font-weight: normal; }
 
 @media screen and (min-width: 64em) {
   .project-tagline {
@@ -112,7 +119,7 @@ a {
   margin-top: 2rem;
   margin-bottom: 1rem;
   font-weight: normal;
-  color: #159957; }
+  color: #4B6897; }
 .main-content p {
   margin-bottom: 1em; }
 .main-content code {
